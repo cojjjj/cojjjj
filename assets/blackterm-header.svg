@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+      <stop offset="0" stop-color="#1b1231"/>
+      <stop offset="0.45" stop-color="#090b12"/>
+      <stop offset="1" stop-color="#020305"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#00ff9c" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#00ff9c"/>
+      <stop offset="0.65" stop-color="#b000ff"/>
+      <stop offset="1" stop-color="#b000ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <g opacity="0.22" stroke="#592a7a" stroke-width="1">
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200"/>
+    <path d="M100 0V360M240 0V360M380 0V360M520 0V360M660 0V360M800 0V360M940 0V360M1080 0V360"/>
+  </g>
+  <g transform="translate(1000 180)" filter="url(#glow)">
+    <circle r="72" fill="none" stroke="#d6d6d6" stroke-width="3" opacity="0.85"/>
+    <g stroke="#d6d6d6" stroke-width="3" opacity="0.75">
+      <path d="M0-100V-138M0 100V138M-100 0H-138M100 0H138M-72-72L-100-100M72 72L100 100M72-72L100-100M-72 72L-100 100"/>
+    </g>
+    <circle r="52" fill="#11131a" stroke="#b000ff" stroke-width="2"/>
+    <circle cx="-18" cy="-8" r="5" fill="#00ff9c"/>
+    <circle cx="18" cy="-8" r="5" fill="#00ff9c"/>
+    <path d="M-24 20 Q0 40 24 20" fill="none" stroke="#d6d6d6" stroke-width="3"/>
+  </g>
+  <text x="70" y="88" fill="#00ff9c" font-family="monospace" font-size="18">BLACKTERM // OPERATOR PROFILE</text>
+  <text x="70" y="170" fill="#ffffff" font-family="monospace" font-size="64" font-weight="700">TYLER DEPPA</text>
+  <text x="72" y="215" fill="#b8c0cc" font-family="monospace" font-size="24">CYBERSECURITY • SOFTWARE • RECON • DEFENSE</text>
+  <rect x="70" y="245" width="620" height="4" rx="2" fill="url(#line)"/>
+  <text x="72" y="292" fill="#b000ff" font-family="monospace" font-size="20">STATUS: ONLINE</text>
+  <text x="285" y="292" fill="#d6d6d6" font-family="monospace" font-size="20">CURRENT OBJECTIVE: BUILD BLACKTERM OS</text>
+  <g fill="#6b7280" font-family="monospace" font-size="14" opacity="0.8">
+    <text x="72" y="330">ACCESS GRANTED // SESSION 2026</text>
+  </g>
+</svg>
